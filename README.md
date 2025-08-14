@@ -61,20 +61,15 @@ cd tic_tac_toe_game
 
 
 Run the main script and choose mode:
-
-python main.py
+  python main.py
 
 
 For multiplayer:
-
-Start the server:
-
-python server.py
+  python server.py
 
 
 In two separate terminals or devices (connected to same Wi‑Fi):
-
-python client.py
+  python client.py
 
 
 
@@ -82,19 +77,19 @@ Usage
 
 In single-player mode:
 
-Select difficulty, play against AI.
+  Select difficulty, play against AI.
 
-Use Hint for best move suggestion.
+  Use Hint for best move suggestion.
+  
+  Restart anytime.
+  
+  In multiplayer mode:
+  
+  One instance runs the server.
+  
+  Other(s) connect via client script.
 
-Restart anytime.
-
-In multiplayer mode:
-
-One instance runs the server.
-
-Other(s) connect via client script.
-
-Game progresses turn by turn with score tracking.
+  Game progresses turn by turn with score tracking.
 
 Project Structure
 .
@@ -113,26 +108,27 @@ client.py: GUI interaction, messaging, score updates, game reset, cleanup on exi
 
 Future Enhancements
 
-Add AI with variable strategies (e.g. Monte Carlo, Q‑learning)
-
-Enable online multiplayer over internet
-
-Improve GUI appearance and add animations or sound effects
-
-Include logging and automated tests
+  Add AI with variable strategies (e.g. Monte Carlo, Q‑learning)
+  
+  Enable online multiplayer over internet
+  
+  Improve GUI appearance and add animations or sound effects
+  
+  Include logging and automated tests
 
 Contributing
 
-Contributions are welcome. For example:
-
-Report issues or suggest enhancements
-
-Tidy code or add new features
-
-Submit pull requests with clear change descriptions
+  Contributions are welcome. For example:
+  
+  Report issues or suggest enhancements
+  
+  Tidy code or add new features
+  
+  Submit pull requests with clear change descriptions
 
 License & Credits
 
-Written by Nikolaos Chronis, June 2024.
+  Written by Nikolaos Chronis, June 2024.
+  
+  No external libraries beyond Python standard library.
 
-No external libraries beyond Python standard library.
